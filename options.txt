@@ -1,0 +1,7 @@
+List of available options:
+0 - exit
+1 - deposit
+2 - withdraw
+3 - transfer
+4 - add category
+5 - remove category
