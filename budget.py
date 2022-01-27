@@ -14,11 +14,11 @@ def main():
     add_category()
 
     q1 = input("Would you like to update your budget? ").lower()
-    if q1 == "exit":
-        exit_program()
-
     # Update budget
     while q1 != "0":
+        
+        if q1 == "exit":
+            exit_program()
 
         total = 0
         # Print current budget
