@@ -17,4 +17,4 @@ The program asks for a budget year, witch has to be at least the current year. T
 
 ## Github Repository
 
-https://github.com/rafantinel/Python-Budget
+https://github.com/rafantinel/budget
