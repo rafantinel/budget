@@ -1,4 +1,3 @@
-import sys
 from config import *
 
 def main():
@@ -61,8 +60,7 @@ def main():
                 remove_category(budget)
 
         q = input("Would you like to update your budget? ").lower()
-
-    
+  
     total = 0
     # Write output file
     with open("out.txt", "w", encoding="utf-8") as f:
@@ -73,7 +71,6 @@ def main():
         f.write(f"Total = {total}\n")
     
     return print("Budget completed!")
-
 
 
 if __name__ == "__main__":
