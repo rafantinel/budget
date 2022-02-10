@@ -62,6 +62,8 @@ def remove_category(budget):
             count -= 1
             if count == 0:
                 sys.exit("All categories removed.")
+        else:
+            return
        
 
 # Find categories
